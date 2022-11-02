@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+$ff-ss: 'Raleway', sans-serif;
+
+$fw-r: 400;
+$fw-m: 500;
+$fw-sb: 600;
+$fw-b: 700;
+
+@mixin sans-serif($fs, $ls: .15em, $color: $dark-gray, $tt: uppercase, $lh: 1, $fw: $fw-r) {
+  font-size: $fs;
+  letter-spacing: $ls;
+  color: $color;
+  text-transform: $tt;
+  line-height: $lh;
+  font-family: $ff-ss;
+  font-weight: $fw;
+}

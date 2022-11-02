@@ -1,0 +1,63 @@
+.hobbies {
+    text-align: center;
+    background: $light-gray;
+    padding: 5em 0;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    @include container($max-width: 75em);
+}
+
+.hobbies__box {
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 20rem;
+    background-color: $white;
+  
+    .hobbies__img {
+      display: block;
+      width: 100%;
+    }
+
+    .hobbies__name {
+        color: $dark-blue;
+        font-weight: $fw-b;
+        font-size: 1.1em;
+    }
+  
+    figcaption {
+      position: absolute;
+      top: 100%;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      padding: 1em;
+      background: rgba($accent, .75);
+      color: $white;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      transition: top ease-in-out 250ms;
+    }
+  
+    &:hover figcaption,
+    &:focus figcaption {
+      top: 0;
+    }
+}
+
+@supports (display: grid) {
+    .hobbies__line {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 1em;
+      row-gap: 2em;
+  
+      @include mq {
+        grid-template-columns: repeat(6, 1fr);
+      }
+    }
+
+}

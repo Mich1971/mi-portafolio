@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/vectorlogo.png">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Sección del Menú  -->
+    <section class="menu">
+        <header class="menu__header">
+
+        </header>
+        <nav>
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="#skills">Habilidades</a></li>
+                <li class="menu__list__item"><a href="#hobbies">Aficiones</a></li>
+                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                <li class="menu__list__item"><a href="#portfolio">Proyectos</a></li>
+                <li class="menu__list__item"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="container-all">
+    <!-- Sección del Title/Hero -->
+    <section class="welcome">
+        <button class="menu-button">
+            <svg class="hamburger" x="0px" y="0px"
+            viewBox="0 0 30 17" height="17" width="30" >
+              <g transform="translate(-15 -15)">
+                <rect x="15" y="16" class="st0" width="30" height="2"/>
+              </g>
+              <g transform="translate(-15 -9)">
+                <rect x="15" y="16" class="st0" width="30" height="2"/>
+              </g>
+              <g transform="translate(-15 -3)">
+                <rect x="15" y="16" class="st0" width="30" height="2"/>
+              </g>
+            </svg>
+            <svg class="close-icon" x="0px" y="0px"
+            viewBox="0 0 30 17" height="17" width="30">
+            <g transform="translate(-15 -15)">
+                <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 
+             35.8,16.5 37,17.7 	"/>
+            </g>
+            </svg>      
+        </button>
+        <div class="title__div">
+            <a href="#contacto"><img src="./assets/perfil_MC.png" alt="foto de perfil" class="title__img"></a>
+            <div class="title__container">
+                <h1 class="title__bio"><span>Portafolio</span>Hola, mi nombre es Michael Chacón y construyo paginas web.</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="intro-left">
+            <img src="./assets/welcome-01.png" alt="una laptop sobre mesa de madera">
+        </div>
+        <div class="intro-middle">
+            <h2>Hacer que suceda</h2>
+            <p class="intro__subsection">Tengo formación en Ingeniería Electrónica con especialidad en Telecomunicaciones y desarrollo de Python. Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+            <ul class="intro__network">
+                <!-- Pon los enlaces de tus redes profesionales -->
+                <li class="title__network__item"><a href="https://www.linkedin.com/in/michael-a-chac%C3%B3n-rossell/" target="_blank">Linkedin <img src="./assets/arrow_blanca.png"></a></li>
+                <li class="title__network__item"><a href="#">Currículo <img src="./assets/arrow_blanca.png"></a></li>
+            </ul>
+        </div>
+        <div class="intro-right">
+            <img src="./assets/welcome-02.png" alt="dos computadoras y una laptop en la mesa">
+        </div>
+    </section>
+    
+    <!-- Sección sobre mi -->
+    <section class="about-me" id="sobre-mi">
+        <img class="about-img" src="./assets/mich-portafolio.png" alt="Una foto de Michael">
+        <h1 class="about-title">Sobre Michael</h1>
+        <h2 class="about-subtitle">Ingeniero y Diseñador</h2>
+        <div class="about-text">
+            <p>Michael Chacón ha trabajado en las áreas de tecnología de la información y telecomunicaciones por mas de 25 años.  El es ciudadano guatemalteco de 51 años de edad que actualmente ofrece servicios profesionales como consultor independiente; trabajando en el diseño, implementación y configuración de soluciones IT, para clientes y empresas en un amplio rango de industrias y actividades comerciales.</p>
+            <p>Como desarrollador, Michael a trabajado en equipo con sus clientes en la ejecución de proyectos de transformación digital, con gran satisfacción en enseñar y aprender durante el proceso.  El reside en la ciudad de Guatemala, donde labora y estudia codificación.  Michael tambien busca, en su tiempo libre, oportunidades para adquirir experiencia en Ciencia de Datos y Machine Learning.</p>
+            <!-- Si quieres, pon tú firma acá! -->
+            <img class="about-firma" src="./assets/signature.png" alt="Mi firma">
+        </div>
+    </section>
+
+    <!-- Sección de Skills -->
+    <section class="skills" id="skills">
+        <h2 class="skills__title">Habilidades</h2>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"><img src="assets\htlm.png" alt="Icono HTML"></li>
+                        <li class="skills__name"> HTML 5</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="assets\js_icon.png" alt="Icono Node Javascript"></li>
+                        <li class="skills__name">Javascript</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="assets\php_icon.png" alt="Icono PHP"></li>
+                        <li class="skills__name">PHP</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt="Icono Node JS"></li>
+                        <li class="skills__name">Node JS</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="assets\react_icon.png" alt="Icono React"></li>
+                        <li class="skills__name">React</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"> <img src="assets\css_icon.png" alt="Icono Node CSS"></li>
+                        <li class="skills__name">CSS</li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+
+    <!-- Sección de Hobbies -->
+    <section class="hobbies" id="hobbies">
+        <h2 class="hobbies__title">Aficiones</h2>
+            <div class="hobbies__line">
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"><img src="assets\skate_icon.png" alt="Icono Patinaje"></li>
+                        <li class="hobbies__name"> Patinaje</li>
+                    </ul>
+                </div>
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt="Icono Bajo"></li>
+                        <li class="hobbies__name">Tocar bajo</li>
+                    </ul>
+                </div>
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt="Icono Musica"></li>
+                        <li class="hobbies__name">Oir música</li>
+                    </ul>
+                </div>
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"><img src="assets\tv_icon.png" alt="Icono series TV"></li>
+                        <li class="hobbies__name">Ver séries</li>
+                    </ul>
+                </div>
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt="Icono cocinar"></li>
+                        <li class="hobbies__name">Cocinar</li>
+                    </ul>
+                </div>
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets\camera_icon.png" alt="Icono fotografia"> </li>
+                        <li class="hobbies__name">Tomar fotos</li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="academic" id="formacion">
+        <h1 class="academic__title" >Formación Académica</h1>
+        <div class="academic__courses">
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="./assets/usac_logo.png" alt="Logo usac"></li>
+                    <li class="academic__courses__item__title"><h4>Ingenieria Electrónica</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>1994 - USAC</p></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!--Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="./assets/michigan_logo.png" alt="Logo UMich"></li>
+                    <li class="academic__courses__item__title"><h4>Formación en desarrollo Python</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2022 - UMich</p></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="./assets/alura_latam_logo.png" alt="Logo Alura"></li>
+                    <li class="academic__courses__item__title"><h4>Oracle Next Education</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>En curso - Alura</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="portfolio" id="portfolio">
+        <h1>Experiencia Profesional </h1>
+        <div class="portfolio-items">
+            <!-- Portfolio item 1 -->
+            <figure class="portfolio-item">
+                <img class="portfolio-image" src="./assets/Portafolio-01.jpg" alt="portfalio item">
+                <figcaption>
+                    <h2 class="portfolio-title">Encriptador de texto</h2>
+                    <p class="portfolio-desc">Primer Challenge Alura ONE - Codificador</p>
+                    <a href="#" class="portfolio-link">Mas información</a>
+                </figcaption>
+                <!-- Portfolio modal 1 -->
+                <div class="portfolio-modal">
+                    <button class="modal-close">
+                        <svg x="0px" y="0px" viewBox="0 0 30 17" height="17" width="30">
+                            <g transform="translate(-15 -15)">
+                                <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 35.8,16.5 37,17.7 	"/>
+                            </g>
+                        </svg>
+                    </button>
+                    <div class="portfolio-header header-one">
+                        <div class="portfolio-title-box">
+                            <h2 class="portfolio-title">Encriptador de texto</h2>    
+                            <p class="portfolio-subtitle">Uso de tecnologías básicas HTML, CSS y Javascript.</p>
+                        </div>
+                    </div> <!-- / portfolio-header -->
+                    <div class="portfolio-content">
+                        <p>Aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.  Los requisitos obligatorios que posee incluyen:  Funciona solo con letras minúsculas. No permite utilizar letras con acentos ni caracteres especiales.  Es posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.  La página tiene campos para inserción del texto que será encriptado o desencriptado, y el usuario puede escoger entre las dos opciones.</p>
+                        <img class="portfolio-full-width" src="./assets/Portafolio-11.png" alt="una imagen">
+                        <p>Puede seleccionar, con los botones a continuación, si desea ver el repositorio GitHub o una demostración del proyecto, ejecutándose en **GitHub Page**.</p>
+                        <div class="portfolio-butttons">
+                            <button id="bot-repositorio" type="button" class="button" onclick="window.open('https://github.com/Mich1971/mich1971.github.io-Challenge-Alura-ONE-Encriptador/tree/main','_blank');">Repositório</button>
+                            <button id="bot-demostracion" type="button" class="button" onclick="window.open('https://mich1971.github.io/mich1971.github.io-Challenge-Alura-ONE-Encriptador/','_blank');">Ver demo</button>
+                        </div>
+                        <img class="portfolio-pull-left" src="./assets/Portafolio-01.jpg" alt="una imagen">
+                    </div>
+                </div>
+            <!-- /modal -->
+            </figure>
+  
+          <!-- Portfolio item 2 -->
+            <figure class="portfolio-item featured">
+                <img class="portfolio-image" src="./assets/Portafolio-02.jpg" alt="portfalio item">
+                <figcaption>
+                    <h2 class="portfolio-title">Juego creado con HTML y JavaScript</h2>
+                    <p class="portfolio-desc">Segundo Challenge Alura ONE - Juego del Ahorcado</p>
+                    <a href="#" class="portfolio-link">Mas información</a>
+                </figcaption>
+                <div class="portfolio-modal">
+                    <button class="modal-close">
+                        <svg x="0px" y="0px" viewBox="0 0 30 17" height="17" width="30">
+                            <g transform="translate(-15 -15)">
+                                <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 35.8,16.5 37,17.7 	"/>
+                            </g>
+                        </svg>
+                    </button>
+                    <div class="portfolio-header header-two">
+                        <div class="portfolio-title-box">
+                            <h2 class="portfolio-title">Juego creado con HTML y JavaScript</h2>    
+                            <p class="portfolio-subtitle">Uso de tecnologías HTML, CSS y Javascript.</p>
+                        </div>
+                    </div> <!-- / portfolio-header -->
+                    <div class="portfolio-content">
+                        <p>Aplicación de **Juego del Ahorcado** que contiene requisitos funcionales como:  Funcionar solo con letras mayúsculas.  No permite utilizar letras con acentos ni caracteres especiales.  Al completar el dibujo de la horca, sera mostrado un mensaje "Fin del juego" en la pantalla.  Si se completa la palabra correcta antes de que se acaben los intentos, es mostrado un mensaje de "Ganaste, Felicidades!" en la pantalla.  La página tiene los guiones indicando cada letra da palabra, separados por un espacio.  Para comenzar el juego la página tiene un botón de "Iniciar Juego".  No permite escribir números dentro del juego.  Las letras equivocadas aparecen en la pantalla, pero no pueden aparecer de forma repetida.  Las letras correctas aparecen en la pantalla encima de los guiones, en la posición correcta en relación a la palabra.</p>
+                        <img class="portfolio-full-width" src="./assets/Portafolio-11.png" alt="una imagen"> 
+                        <p>Puede seleccionar, con los botones a continuación, si desea ver el repositorio GitHub o una demostración del proyecto, ejecutándose en **GitHub Page**.</p>
+                        <div class="portfolio-butttons">
+                            <button id="bot-repositorio" type="button" class="button" onclick="window.open('https://github.com/Mich1971/mich1971.github.io-Challenge-Alura-ONE-Juego-Ahorcado','_blank');">Repositório</button>
+                            <button id="bot-demostracion" type="button" class="button" onclick="window.open('https://mich1971.github.io/mich1971.github.io-Challenge-Alura-ONE-Juego-Ahorcado/','_blank');">Ver demo</button>
+                        </div>
+                        <img class="portfolio-pull-left" src="./assets/Portafolio-02.jpg" alt="una imagen">
+                    </div>
+                </div>
+            </figure>
+            <!-- Portfolio item 3 -->
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contact" id="contacto">
+        <div class="izquierda">
+            <img class="izquierda__img" src="./assets/contact_image.png" alt="foto telefono">
+        </div>
+        <div class="form">
+            <h1 class="formcontato__title">Contacto</h1>
+            <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+            <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+            <form id="form" class="formcontato__form" name="form">
+                <span class="form-input-tooltip">
+                    <input id="nombre" class="formcontato__input" type="text" name="nombre" maxlength="50" required placeholder="Nombre" aria-describedby="form-tooltip" oninvalid="InvalidMsg(this);" oninput="InvalidMsg(this);">
+                    <span role="tooltip" id="form-tooltip">Escriba su nombre y apellido.</span>
+                </span>
+                <span class="form-input-tooltip">
+                    <input id="email" class="formcontato__input" type="email" name="email" required placeholder="E-mail" aria-describedby="form-tooltip" oninvalid="InvalidMsg(this);" oninput="InvalidMsg(this);">
+                    <span role="tooltip" id="form-tooltip">Escriba su correo electrónico.</span>
+                </span>
+                <span class="form-input-tooltip">
+                    <input id="asunto" class="formcontato__input" type="text" name="asunto" maxlength="50" required placeholder="Asunto" aria-describedby="form-tooltip" oninvalid="InvalidMsg(this);" oninput="InvalidMsg(this);">
+                    <span role="tooltip" id="form-tooltip">Escriba el asunto de su mensaje.</span>
+                </span>
+                <span class="form-input-tooltip">
+                    <textarea id="mensaje" class="formcontato__textarea" rows="5" cols="40" name="mensaje" maxlength="300" required placeholder="Mensaje" aria-describedby="form-tooltip" oninvalid="InvalidMsg(this);" oninput="InvalidMsg(this);"></textarea>
+                    <span role="tooltip" id="form-tooltip">Escriba su mensaje.</span>
+                </span>
+                <button id="enviar" type="submit" class="formcontato button" aria-disabled="true">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Sección de Footer -->
+    <footer>
+        <p>Sígueme en las redes sociales</p>
+        <div class="social-icons">
+            <a href="https://twitter.com/macrssll" target="_blank"><img class="social-icon" src="./assets/twitter.svg" alt="twitter"></a>
+            <a href="https://www.instagram.com/macrssll/" target="_blank"><img class="social-icon" src="./assets/instagram.svg" alt="instagram"></a>
+            <a href="https://github.com/Mich1971" target="_blank"><img class="social-icon" src="./assets/github.svg" alt="github"></a>
+        </div>
+        <div class="footer__rodape">
+            <p class="copyright">Versión 1.0.0 &copy; Copyright MC Desings - 2022</p>
+        </div>
+    </footer>
+    </div>
+
+    <!-- Script del documento JavaScript y RxJS -->
+    <script type="text/javascript" src="./js/nav.js"></script>
+    <script type="text/javascript" src="./js/modal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.6.0/rxjs.umd.js"></script>
+    <script type="text/javascript" src="./js/validacion.js"></script>
+</body>
+</html>
